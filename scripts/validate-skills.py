@@ -12,6 +12,11 @@ Exits non-zero (and lists every problem) if anything fails.
 
 from __future__ import annotations
 
+import utils.net
+import utils.clients
+import utils.http_session
+import utils.transport
+import utils.session
 import glob
 import re
 import sys
